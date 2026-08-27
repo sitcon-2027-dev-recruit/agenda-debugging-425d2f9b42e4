@@ -23,6 +23,7 @@ export default function DesktopAgenda() {
 
   function parseTime(time: Date) {
     return time.toLocaleTimeString("en-US", {
+      timeZone: "Asia/Taipei",
       hour: "2-digit",
       minute: "2-digit",
       hour12: false,
